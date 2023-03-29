@@ -1,4 +1,4 @@
-Gaps In Time
+#Gaps In Time
 
 This Python script takes a call log CSV file as input and outputs a new CSV file that includes breaks between calls. It calculates the start and end times of each call and the duration of each break. The output file also includes a new column for the duration of each call and the duration of each break in minutes.
 
