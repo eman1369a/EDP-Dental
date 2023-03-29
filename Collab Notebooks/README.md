@@ -7,3 +7,15 @@ This script is useful for call centers or businesses that need to track the dura
 The script uses the Pandas library to read in and manipulate the data, and includes comments throughout the code to explain each step of the process. It also includes error handling to ensure that the script runs smoothly and can handle missing or incomplete data.
 
 This script can be easily adapted and customized to meet the specific needs of different businesses or organizations. It can also be integrated into larger data analysis workflows or combined with other scripts to create more complex analyses.
+
+#Monthly Leads for Sales Team
+
+This Jupyter Notebook showcases an efficient and customizable approach to distributing leads among a sales team, optimizing the allocation based on team members' preferences and priorities. Designed with data-driven decision-making in mind, this script is ideal for data analysts and data scientists looking to improve the lead assignment process within their organization.
+
+Key Features:
+
+Utilizes pandas for data manipulation and analysis.
+Incorporates conditional rules to prioritize lead assignment based on salespeople's preferences.
+Customizable for different sales team structures and lead types.
+Demonstrates practical usage of data analysis techniques to solve real-world business problems.
+This project serves as an excellent example of applying data analysis and manipulation techniques to improve the efficiency and effectiveness of a sales team's lead distribution process.
