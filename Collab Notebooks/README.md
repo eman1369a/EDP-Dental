@@ -19,3 +19,7 @@ Incorporates conditional rules to prioritize lead assignment based on salespeopl
 Customizable for different sales team structures and lead types.
 Demonstrates practical usage of data analysis techniques to solve real-world business problems.
 This project serves as an excellent example of applying data analysis and manipulation techniques to improve the efficiency and effectiveness of a sales team's lead distribution process.
+
+#Clean Phoneburner Data for CRM
+
+This Python script demonstrates strong data wrangling skills by processing a dataset containing contact information for dental practices. The script cleans the data by removing empty phone numbers, converting phone numbers to a standardized format, filling in missing values, and categorizing specialties. It also applies a function to assign territories based on the state of the dental practice and generates campaign names accordingly. In addition, the script cleans up the "Attn To" field by removing unnecessary characters and standardizing the formatting. This script showcases the use of Pandas, regex, and lambda functions to efficiently clean and transform a large dataset, making it a valuable asset for any company that deals with large amounts of data.
