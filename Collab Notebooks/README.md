@@ -12,8 +12,6 @@ This script can be easily adapted and customized to meet the specific needs of d
 
 This Jupyter Notebook showcases an efficient and customizable approach to distributing leads among a sales team, optimizing the allocation based on team members' preferences and priorities. Designed with data-driven decision-making in mind, this script is ideal for data analysts and data scientists looking to improve the lead assignment process within their organization.
 
-Key Features:
-
 Utilizes pandas for data manipulation and analysis.
 Incorporates conditional rules to prioritize lead assignment based on salespeople's preferences.
 Customizable for different sales team structures and lead types.
@@ -23,3 +21,7 @@ This project serves as an excellent example of applying data analysis and manipu
 #Clean Phoneburner Data for CRM
 
 This Python script demonstrates strong data wrangling skills by processing a dataset containing contact information for dental practices. The script cleans the data by removing empty phone numbers, converting phone numbers to a standardized format, filling in missing values, and categorizing specialties. It also applies a function to assign territories based on the state of the dental practice and generates campaign names accordingly. In addition, the script cleans up the "Attn To" field by removing unnecessary characters and standardizing the formatting. This script showcases the use of Pandas, regex, and lambda functions to efficiently clean and transform a large dataset, making it a valuable asset for any company that deals with large amounts of data.
+
+#New Referring Offices 
+
+This Python script processes two CSV files, one containing information on new dental offices and one containing information on referrals made by those offices. It calculates the number of new offices and referrals made by territory and by rep, and outputs the results to Excel files. The script is designed to be run locally and requires the pandas and openpyxl packages.
