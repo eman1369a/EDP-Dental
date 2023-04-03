@@ -25,3 +25,6 @@ This Python script demonstrates strong data wrangling skills by processing a dat
 #New Referring Offices 
 
 This Python script processes two CSV files, one containing information on new dental offices and one containing information on referrals made by those offices. It calculates the number of new offices and referrals made by territory and by rep, and outputs the results to Excel files. The script is designed to be run locally and requires the pandas and openpyxl packages.
+
+#Sales By Weekday
+Weekly Sales Analysis is a Python script that analyzes sales data for a business on a weekly basis. The script reads in multiple CSV files containing sales data for individual days, combines them into a single DataFrame, and performs various calculations and visualizations on the data. The script uses the pandas and matplotlib libraries to manipulate and plot the data.
