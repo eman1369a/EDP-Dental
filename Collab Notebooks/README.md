@@ -28,3 +28,6 @@ This Python script processes two CSV files, one containing information on new de
 
 #Sales By Weekday
 Weekly Sales Analysis is a Python script that analyzes sales data for a business on a weekly basis. The script reads in multiple CSV files containing sales data for individual days, combines them into a single DataFrame, and performs various calculations and visualizations on the data. The script uses the pandas and matplotlib libraries to manipulate and plot the data.
+
+#Sales Forecasting using ARIMA Model: 
+This Jupyter notebook demonstrates how to forecast daily sales data using an ARIMA model in Python. The notebook includes data preprocessing steps, visualizations, and the implementation of the ARIMA model using the statsmodels and pmdarima libraries. The results of the model are evaluated using mean squared error (MSE) and mean absolute error (MAE), and the predicted values are plotted against the actual values for visualization. This notebook can serve as a reference for anyone interested in using ARIMA models for sales forecasting.
