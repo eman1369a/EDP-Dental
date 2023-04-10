@@ -1,4 +1,4 @@
-##Tensorflow NN Forecaster
+## Tensorflow NN Forecaster
 This implementation uses Bidirectional LSTMs to predict sales from time series data. Popular algorithms for time series forecasting include GRU, LSTM, Convolutional NN, and Bidirectional LSTM. After evaluating multiple algorithms and taking into account the presence of outliers from nearby holidays and busy trends around renewal notice periods, the Mean Absolute Error (MAE) was selected as the most suitable evaluation metric.
 
 Bidirectional LSTM emerged as the best model, providing comparable results to Facebook's Prophet model. However, the resulting error margin of around $5,000 per day, which can represent 20-80% of daily sales, is too high for practical use by management.
