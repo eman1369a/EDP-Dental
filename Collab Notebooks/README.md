@@ -1,3 +1,12 @@
+##Tensorflow NN Forecaster
+This implementation uses Bidirectional LSTMs to predict sales from time series data. Popular algorithms for time series forecasting include GRU, LSTM, Convolutional NN, and Bidirectional LSTM. After evaluating multiple algorithms and taking into account the presence of outliers from nearby holidays and busy trends around renewal notice periods, the Mean Absolute Error (MAE) was selected as the most suitable evaluation metric.
+
+Bidirectional LSTM emerged as the best model, providing comparable results to Facebook's Prophet model. However, the resulting error margin of around $5,000 per day, which can represent 20-80% of daily sales, is too high for practical use by management.
+
+Upon examining the residuals, the model struggles to learn patterns in the data before September 2020. This is likely due to the disruption in sales patterns caused by the onset of COVID-19 in April 2020. Although the model appears to learn patterns better after this period, it is still limited by the two years of data available. Additionally, a company price change could further impact the model's performance.
+
+To improve the model, consider gathering more data, incorporating additional features, or testing alternative forecasting methods to better capture the patterns in the dataset.
+
 ## Gaps In Time
 
 This Python script takes a call log CSV file as input and outputs a new CSV file that includes breaks between calls. It calculates the start and end times of each call and the duration of each break. The output file also includes a new column for the duration of each call and the duration of each break in minutes.
